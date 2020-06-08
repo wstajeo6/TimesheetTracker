@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimesheetTrackerWPF", "TimesheetTrackerWPF\TimesheetTrackerWPF.csproj", "{71CDD456-AA8D-4A61-8644-6CBE416AB085}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimesheetTrackerWPF", "TimesheetTrackerWPF\TimesheetTrackerWPF.csproj", "{71CDD456-AA8D-4A61-8644-6CBE416AB085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimesheetTrackerVM", "TimesheetTrackerVM\TimesheetTrackerVM.csproj", "{6D0609EB-9994-4328-94B6-75BCE23CE7DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{71CDD456-AA8D-4A61-8644-6CBE416AB085}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71CDD456-AA8D-4A61-8644-6CBE416AB085}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71CDD456-AA8D-4A61-8644-6CBE416AB085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D0609EB-9994-4328-94B6-75BCE23CE7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0609EB-9994-4328-94B6-75BCE23CE7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0609EB-9994-4328-94B6-75BCE23CE7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0609EB-9994-4328-94B6-75BCE23CE7DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,4 +6,19 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Sheets.v4" Version="1.46.0.1974" />
+    <PackageReference Include="MaterialDesignThemes" Version="3.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TimesheetTrackerVM\TimesheetTrackerVM.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="TimesheetTracker-f12adf133c45.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
