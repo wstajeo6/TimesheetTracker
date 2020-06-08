@@ -7,11 +7,13 @@ namespace TimesheetTrackerVM.Menu
 {
     public class MenuBarVM : BaseVM
     {
-        private bool isMenuCollapsed = true;
-        public bool IsMenuCollapsed
+        private bool isMenuExpanded = false;
+        public bool IsMenuExpanded
         {
-            get => isMenuCollapsed;
-            set => SetField(ref isMenuCollapsed, value);
+            get => isMenuExpanded;
+            set => SetField(ref isMenuExpanded, value);
         }
+
+        public void TriggerMenuExpand() => IsMenuExpanded = !IsMenuExpanded;
     }
 }
