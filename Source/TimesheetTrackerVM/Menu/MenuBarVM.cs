@@ -13,7 +13,5 @@ namespace TimesheetTrackerVM.Menu
             get => isMenuExpanded;
             set => SetField(ref isMenuExpanded, value);
         }
-
-        public void TriggerMenuExpand() => IsMenuExpanded = !IsMenuExpanded;
     }
 }

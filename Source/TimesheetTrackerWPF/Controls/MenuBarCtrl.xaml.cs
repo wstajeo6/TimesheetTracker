@@ -18,9 +18,9 @@ namespace TimesheetTrackerWPF.Controls
 
         public MenuBarCtrl()
         {
+            DataContext = vm = new MenuBarVM();
             InitializeComponent();
             SubscribeButtonsEvents();
-            DataContext = vm = new MenuBarVM();
         }
 
         #endregion Public Constructors
@@ -29,8 +29,8 @@ namespace TimesheetTrackerWPF.Controls
 
         private void SubscribeButtonsEvents()
         {
-            btnOpenMenu.Click += (s, a) => vm.TriggerMenuExpand();
-            btnCloseMenu.Click += (s, a) => vm.TriggerMenuExpand();
+            btnOpenMenu.Click += (s, a) => vm.IsMenuExpanded = true;
+            btnCloseMenu.Click += (s, a) => vm.IsMenuExpanded = false;
         }
 
         #endregion Private Methods
