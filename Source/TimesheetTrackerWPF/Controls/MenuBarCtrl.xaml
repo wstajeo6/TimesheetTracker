@@ -39,13 +39,13 @@
         <StackPanel>
             <Grid Height="150" Background="White" RenderTransformOrigin="0.5,0.5">
                 <Button x:Name="btnOpenMenu" Height="60" Width="60" Margin="5" HorizontalAlignment="Right" VerticalAlignment="Top" 
-                        Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF31577E">
-                    <!--="{Binding Path=IsMenuCollapsed, Converter={StaticResource BooleanToVisibilityConverter}}"-->
+                        Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF31577E"
+                        Visibility="{Binding Path=IsMenuCollapsed, Converter={StaticResource BooleanToVisibilityConverter}}">
                     <materialDesign:PackIcon Kind="Menu" Width="25" Height="25"/>
                 </Button>
                 <Button x:Name="btnCloseMenu" Height="60" Width="60" Margin="5" HorizontalAlignment="Right" VerticalAlignment="Top"
-                        Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF31577E" Visibility="Collapsed">
-                    <!--Visibility="{Binding Path=IsMenuCollapsed, Converter={StaticResource InvertedBooleanToVisibilityConverter}}">-->
+                        Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF31577E"
+                        Visibility="{Binding Path=IsMenuCollapsed, Converter={StaticResource InvertedBooleanToVisibilityConverter}}">
                     <materialDesign:PackIcon Kind="ArrowLeft" Width="25" Height="25"/>
                 </Button>
             </Grid>

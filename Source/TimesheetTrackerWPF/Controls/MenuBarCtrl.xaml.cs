@@ -29,8 +29,8 @@ namespace TimesheetTrackerWPF.Controls
 
         private void SubscribeButtonsEvents()
         {
-            //btnOpenMenu.Click += (s, a) => vm.IsMenuCollapsed = false;
-            //btnCloseMenu.Click += (s, a) => vm.IsMenuCollapsed = true;
+            btnOpenMenu.Click += (s, a) => vm.IsMenuCollapsed = false;
+            btnCloseMenu.Click += (s, a) => vm.IsMenuCollapsed = true;
         }
 
         #endregion Private Methods
